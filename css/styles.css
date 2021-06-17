@@ -527,10 +527,9 @@ body {
   margin-right: 93px;
 }
 
-.footer-label-subscribe{
+.footer-label-subscribe {
   display: inline-block;
 }
-
 
 .footer-label-subscribe,
 .footer-title-join {
@@ -544,7 +543,6 @@ body {
   text-align: left;
   color: #ffffff;
 }
-
 
 .footer-subscribe,
 .footer-social {
@@ -607,7 +605,7 @@ body {
 }
 
 .subscribe-input:focus {
-   /* outline: none;  */
+  /* outline: none;  */
 }
 
 .footer-socialnet-list {
@@ -695,7 +693,7 @@ body {
 
 .modal-button-close:hover .icon-close {
   fill: currentColor;
-  transition: fill var(--transition-duration)  cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-content {
@@ -723,18 +721,17 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-   /* outline: 1px solid red;  */
+  /* outline: 1px solid red;  */
 }
 
-
-.form-textarea{
-    transition:  border-color var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1); 
+.form-textarea {
+  transition: border-color var(--transition-duration)
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-label,
-.form-field textarea::placeholder
- {
-   display: inline-block;
+.form-field textarea::placeholder {
+  display: inline-block;
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
@@ -753,7 +750,7 @@ body {
 .form-field input:focus,
 .form-field textarea:hover,
 .form-field textarea:focus {
-   outline: none; 
+  outline: none;
   border-color: var(--accent-text-color);
 }
 
@@ -765,9 +762,10 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-input{
-  padding-left 20px: ;
-  transition: border-color var(--transition-duration)  cubic-bezier(0.4, 0, 0.2, 1); 
+.form-input {
+  padding-left: 20px;
+  transition: border-color var(--transition-duration)
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:hover {
@@ -775,17 +773,15 @@ body {
   border-color: var(--accent-text-color);
 }
 
-.form-input:hover + .form-icon-mail, 
-.form-input:focus + .form-icon-mail, 
-.form-input:hover + .form-icon-person, 
-.form-input:focus + .form-icon-person, 
+.form-input:hover + .form-icon-mail,
+.form-input:focus + .form-icon-mail,
+.form-input:hover + .form-icon-person,
+.form-input:focus + .form-icon-person,
 .form-input:hover + .form-icon-tel,
-.form-input:focus + .form-icon-tel
-{
+.form-input:focus + .form-icon-tel {
   fill: var(--accent-text-color);
-  transition: fill var(--transition-duration)  cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .form-icon-mail,
 .form-icon-tel,
@@ -794,21 +790,21 @@ body {
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
-  fill: var(--alt-text-color); ;
+  fill: var(--alt-text-color);
 }
 
 .form-icon-person {
-width: 12px;
+  width: 12px;
   height: 12px;
 }
 
 .form-icon-tel {
-width: 14px;
+  width: 14px;
   height: 14px;
 }
 
 .form-icon-mail {
-width: 16px;
+  width: 16px;
   height: 12px;
 }
 
@@ -819,18 +815,18 @@ width: 16px;
   margin-bottom: 30px;
 }
 
- .checkbox-policy{
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-clip: rect(0 0 0 0);
-overflow: hidden;
-} 
+.checkbox-policy {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
-.checkbox-icon{
+.checkbox-icon {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -839,17 +835,30 @@ overflow: hidden;
   border-radius: 2px;
   align-items: center;
 }
-.checkbox-label{
-display: inline-block;
+
+.checkbox-policy:focus + .checkbox-icon {
+  border-color: var(--accent-text-color);
+  transition: border-color var(--transition-duration)
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-policy:checked + .checkbox-icon{
+.checkbox-icon:hover {
+  cursor: pointer;
+}
+
+.checkbox-label {
+  display: inline-block;
+}
+
+.checkbox-policy:checked + .checkbox-icon {
   border-color: var(--accent-text-color);
   background-color: var(--accent-text-color);
   background-image: url('../images/check.svg');
   background-size: contain;
   background-origin: border-box;
-  transition: border-color var(--transition-duration)  cubic-bezier(0.4, 0, 0.2, 1), background-color var(--transition-duration)  cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color var(--transition-duration)
+      cubic-bezier(0.4, 0, 0.2, 1),
+    background-color var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .policy-link,

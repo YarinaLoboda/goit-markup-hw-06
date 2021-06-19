@@ -725,6 +725,8 @@ body {
 }
 
 .form-textarea {
+  width: 100%;
+  height: 120px;
   transition: border-color var(--transition-duration)
     cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -764,6 +766,8 @@ body {
 
 .form-input {
   padding-left: 20px;
+  width: 100%;
+  height: 40px;
   transition: border-color var(--transition-duration)
     cubic-bezier(0.4, 0, 0.2, 1);
 }
